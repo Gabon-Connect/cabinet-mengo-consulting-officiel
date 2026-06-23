@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/mawuva/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/**)",
+      "Bash(python3 skills/ui-ux-pro-max/scripts/search.py \"consulting law firm professional institutional premium africa\" --design-system -p \"Mengo Consulting\" -f markdown)",
+      "Bash(python3 /home/mawuva/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/src/ui-ux-pro-max/scripts/search.py \"consulting law firm professional institutional premium\" --design-system -p \"Mengo Consulting\" -f markdown)",
+      "Bash(python3 /home/mawuva/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/src/ui-ux-pro-max/scripts/search.py \"glassmorphism professional institutional\" --domain style)",
+      "Bash(python3 skills/ui-ux-pro-max/scripts/search.py \"legal consulting law firm professional institutional\" --design-system -p \"Mengo Consulting\" -f markdown)",
+      "Bash(python3 /home/mawuva/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/skills/ui-ux-pro-max/scripts/search.py \"legal consulting law firm professional institutional\" --design-system -p \"Mengo Consulting\" -f markdown)",
+      "Bash(python3 /home/mawuva/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/skills/ui-ux-pro-max/scripts/search.py \"glassmorphism dark minimalism\" --domain style -n 3)",
+      "Bash(python3 /home/mawuva/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/src/ui-ux-pro-max/scripts/search.py \"legal consulting professional institutional\" --design-system -p \"Mengo Consulting\" -f markdown)",
+      "Bash(python3 /home/mawuva/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/src/ui-ux-pro-max/scripts/search.py \"glassmorphism parallax scroll animation dark\" --domain style -n 2)"
+    ]
+  }
+}
