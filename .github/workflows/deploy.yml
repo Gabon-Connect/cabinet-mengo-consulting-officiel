@@ -19,4 +19,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 0a2fc6bb77f08039fdccb7c84cf77a30
           command: pages deploy . --project-name cabinet-mengo-consulting --branch main
