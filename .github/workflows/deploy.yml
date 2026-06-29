@@ -15,9 +15,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Create Cloudflare Pages project (if not exists)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          npx wrangler pages project create cabinet-mengo-consulting --production-branch main 2>/dev/null || true
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 0a2fc6bb77f08039fdccb7c84cf77a30
-          command: pages deploy . --project-name cabinet-mengo-consulting --branch main
+          command: pages deploy . --project-name cabinet-mengo-consulting --branch main --commit-dirty=true
